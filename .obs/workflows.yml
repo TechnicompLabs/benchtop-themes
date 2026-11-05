@@ -1,0 +1,25 @@
+rebuild_on_push:
+  steps:
+    - trigger_services:
+        project: home:technicomp:benchtop
+        package: adw-gtk3-theme
+    - trigger_services:
+        project: home:technicomp:benchtop
+        package: yaru-theme
+    - trigger_services:
+        project: home:technicomp:benchtop
+        package: kvantum-theme-libadwaita
+    - trigger_services:
+        project: home:technicomp:benchtop
+        package: kvantum-theme-yaru-colors
+    - trigger_services:
+        project: home:technicomp:benchtop
+        package: ubuntu-sans-fonts
+    - trigger_services:
+        project: home:technicomp:benchtop
+        package: ubuntu-sans-mono-fonts
+  filters:
+    event: push
+    branches:
+      only:
+        - main

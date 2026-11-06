@@ -1,8 +1,8 @@
 {
-  "name": "Legacy (GTK3) Theme Scheme Auto Switcher",
-  "description": "Change the GTK3 theme to light/dark variant based on the system color scheme",
-  "url": "https://github.com/mukul29/legacy-theme-auto-switcher-gnome-extension",
-  "uuid": "legacyschemeautoswitcher@joshimukul29.gmail.com",
+  "name": "Benchtop Theme Switcher",
+  "description": "Switches the GTK 3 theme and the Kvantum theme of Qt applications between their light and dark variants with the system's style. Part of Technicomp Benchtop Linux; a fork of Legacy (GTK3) Theme Scheme Auto Switcher by Mukul Joshi.",
+  "url": "https://github.com/TechnicompLabs/benchtop-themes",
+  "uuid": "theme-switcher@technicomplabs.github.io",
   "shell-version": [
     "45",
     "46",

@@ -10,6 +10,7 @@ Technicomp Benchtop Linux packaging of desktop themes and fonts, each built from
 | `kvantum-theme-yaru-colors/` | [KvYaru-Colors](https://github.com/GabePoel/KvYaru-Colors) | commits (no releases) |
 | `ubuntu-sans-fonts/` | [Ubuntu Sans](https://github.com/canonical/Ubuntu-Sans-fonts) | releases |
 | `ubuntu-sans-mono-fonts/` | [Ubuntu Sans Mono](https://github.com/canonical/Ubuntu-Sans-Mono-fonts) | releases |
+| `gnome-shell-extension-benchtop-theme-switcher/` | Benchtop Theme Switcher, TCBL's fork of [Legacy (GTK3) Theme Scheme Auto Switcher](https://github.com/mukul29/legacy-theme-auto-switcher-gnome-extension), with its history; it also switches the Kvantum theme | not followed (a fork; its source is here) |
 
 The sources are not kept here. Each spec names them as remote assets (`#!RemoteAsset: sha256:…` before a `Source:` URL), which OBS downloads from GitHub and checks before building.
 

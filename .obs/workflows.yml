@@ -18,6 +18,9 @@ rebuild_on_push:
     - trigger_services:
         project: home:technicomp:benchtop
         package: ubuntu-sans-mono-fonts
+    - trigger_services:
+        project: home:technicomp:benchtop
+        package: gnome-shell-extension-benchtop-theme-switcher
   filters:
     event: push
     branches:

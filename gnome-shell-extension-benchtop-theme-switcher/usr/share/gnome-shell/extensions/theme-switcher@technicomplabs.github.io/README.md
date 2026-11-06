@@ -1,10 +1,5 @@
-# Global Theme Scheme Switcher
+# Benchtop Theme Switcher
 
-Extension for Gnome 45+.
+GNOME Shell extension that switches the GTK 3 theme (for example adw-gtk3 and adw-gtk3-dark, or Yaru-blue and Yaru-blue-dark) and the Kvantum theme of Qt applications (for example KvLibadwaita and KvLibadwaitaDark) between their light and dark variants when the system's style changes in Settings, Appearance. Part of Technicomp Benchtop Linux, which packages it as `gnome-shell-extension-benchtop-theme-switcher`.
 
-Changes the GTK3 (legacy) theme variant to light/dark when the scheme is changed from Settings.
-
-Get the extension: [https://extensions.gnome.org/extension/4998/legacy-gtk3-theme-scheme-auto-switcher/](https://extensions.gnome.org/extension/4998/legacy-gtk3-theme-scheme-auto-switcher/)
-
-### Credits
-[Light/Dark Theme Switcher by fthx](https://github.com/fthx/theme-switcher)
+A fork of [Legacy (GTK3) Theme Scheme Auto Switcher](https://github.com/mukul29/legacy-theme-auto-switcher-gnome-extension) by Mukul Joshi. Its `extension.js` is licensed under the GNU General Public License, version 2 or later (its header); the repository's `LICENSE` is the GNU Affero General Public License, version 3. Changes from it: the name and UUID; the Kvantum theme in `~/.config/Kvantum/kvantum.kvconfig` is switched too (`Name` and `NameDark`; `NameLight` becomes `NameDark`), when that variant exists. Qt applications pick up the new theme when they start.

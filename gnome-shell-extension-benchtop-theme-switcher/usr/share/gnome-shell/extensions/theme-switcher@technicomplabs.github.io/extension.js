@@ -19,6 +19,13 @@
  * Theme Scheme Auto Switcher by Mukul Joshi
  * (https://github.com/mukul29/legacy-theme-auto-switcher-gnome-extension).
  * TCBL changes: the Kvantum theme of Qt applications is switched as well.
+ *
+ * License of this fork: TCBL's changes are licensed under the GNU Affero
+ * General Public License, version 3 only (AGPL-3.0-only), and TCBL
+ * distributes the whole extension under the AGPL-3.0-only. The upstream
+ * repository's LICENSE is the AGPL-3.0; the code under the notice above,
+ * which is kept as the GPL requires, may be used under the GPL, version 3,
+ * which permits combining it with AGPL-3.0 code (GPL-3.0, section 13).
  */
 
 /* exported Extension */

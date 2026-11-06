@@ -14,9 +14,11 @@ Name:           gnome-shell-extension-benchtop-theme-switcher
 Version:        1
 Release:        0
 Summary:        GNOME Shell extension that switches GTK 3 and Kvantum themes to dark
-# a fork of Legacy (GTK3) Theme Scheme Auto Switcher by Mukul Joshi: its code
-# says GPL-2.0-or-later, its repository's LICENSE file is the AGPL-3.0
-License:        GPL-2.0-or-later AND AGPL-3.0-only
+# a fork of Legacy (GTK3) Theme Scheme Auto Switcher by Mukul Joshi, whose
+# code says GPL-2.0-or-later and whose repository's LICENSE is the AGPL-3.0;
+# TCBL's changes, and the extension as TCBL distributes it, are AGPL-3.0-only
+# (GPL-3.0 permits combining with AGPL-3.0 code, section 13)
+License:        AGPL-3.0-only
 URL:            https://github.com/TechnicompLabs/benchtop-themes
 BuildArch:      noarch
 Requires:       gnome-shell >= 45

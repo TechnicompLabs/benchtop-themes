@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: MIT
+# shellcheck shell=bash
 # Helpers for the packages' update.sh scripts (sourced). They need curl,
 # python3 and sha256sum; GH_TOKEN, when set, is used for GitHub's API.
 

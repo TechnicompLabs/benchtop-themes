@@ -60,9 +60,11 @@ for f in fonts/ttf/*.ttf; do echo "%{_ttfontsdir}/${f##*/}"; done > static.files
 
 %files
 %license LICENCE.txt
+%dir %{_ttfontsdir}
 %{_ttfontsdir}/UbuntuSansMono*wght*.ttf
 
 %files -n ubuntu-sans-mono-static-fonts -f static.files
 %license LICENCE.txt
+%dir %{_ttfontsdir}
 
 %changelog

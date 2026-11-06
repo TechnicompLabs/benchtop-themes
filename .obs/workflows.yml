@@ -21,6 +21,9 @@ rebuild_on_push:
     - trigger_services:
         project: home:technicomp:benchtop
         package: gnome-shell-extension-benchtop-theme-switcher
+    - trigger_services:
+        project: home:technicomp:benchtop
+        package: kvantum
   filters:
     event: push
     branches:

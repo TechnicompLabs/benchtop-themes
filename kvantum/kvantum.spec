@@ -41,13 +41,13 @@ ExclusiveArch:  do_not_build
 %define dsc_suffix Qt5
 %endif
 Name:           kvantum%{?pkg_suffix}
-Version:        1.1.8
+Version:        1.1.9
 Release:        0
 Summary:        SVG-based theme engine for Qt5 and Qt6
 License:        GPL-3.0-or-later
 Group:          System/GUI/KDE
 URL:            https://github.com/tsujan/Kvantum
-#!RemoteAsset: sha256:7aa9099345e48048ebdad768f583944ac042f87b216fa0b26a169c7e05425047
+#!RemoteAsset: sha256:a9ca7d108b73e932227c10e435dc6c46b53306d752a8720f91813039770513df
 Source0:        https://github.com/tsujan/Kvantum/releases/download/V%{version}/Kvantum-%{version}.tar.xz
 # TCBL: the "kvantum-auto" style key
 Patch0:         kvantum-auto-color-scheme.patch

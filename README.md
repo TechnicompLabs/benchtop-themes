@@ -10,6 +10,7 @@ Technicomp Benchtop Linux packaging of desktop themes and fonts, each built from
 | `kvantum-theme-yaru-colors/` | [KvYaru-Colors](https://github.com/GabePoel/KvYaru-Colors) | commits (no releases) |
 | `ubuntu-sans-fonts/` | [Ubuntu Sans](https://github.com/canonical/Ubuntu-Sans-fonts) | releases |
 | `ubuntu-sans-mono-fonts/` | [Ubuntu Sans Mono](https://github.com/canonical/Ubuntu-Sans-Mono-fonts) | releases |
+| `sarasa-gothic-fonts/` | [Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic), every family, orthography and weight as TrueType collections (the release's hinted TTC set; it has no license file, so the spec takes LICENSE from the tag) | releases |
 | `kvantum/` | [Kvantum](https://github.com/tsujan/Kvantum), openSUSE Factory's package with TCBL's patch for the `kvantum-auto` style key, which follows the desktop's color scheme (`kvantum-auto-color-scheme.patch`); the TCBL repository's priority puts it above openSUSE's | releases |
 | `gnome-shell-extension-benchtop-theme-switcher/` | Benchtop Theme Switcher, TCBL's fork of [Legacy (GTK3) Theme Scheme Auto Switcher](https://github.com/mukul29/legacy-theme-auto-switcher-gnome-extension), with its history; it also switches the Kvantum theme | not followed (a fork; its source is here) |
 
@@ -19,4 +20,4 @@ Updates: the GitHub Actions job `.github/workflows/follow-upstream.yml` runs eve
 
 A new Kvantum release that the patch no longer applies to fails at `%prep` on OBS; the patch is then updated by hand.
 
-Each font family is two packages that conflict, so that it is never listed twice: the variable fonts (installed by default) and the static TrueType fonts.
+Ubuntu Sans and Ubuntu Sans Mono are each two packages that conflict, so that the family is never listed twice: the variable fonts (installed by default) and the static TrueType fonts. Sarasa Gothic has no variable fonts and is one package.

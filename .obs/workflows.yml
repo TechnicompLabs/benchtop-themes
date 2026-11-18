@@ -20,6 +20,9 @@ rebuild_on_push:
         package: ubuntu-sans-mono-fonts
     - trigger_services:
         project: home:technicomp:benchtop
+        package: sarasa-gothic-fonts
+    - trigger_services:
+        project: home:technicomp:benchtop
         package: gnome-shell-extension-benchtop-theme-switcher
     - trigger_services:
         project: home:technicomp:benchtop

@@ -10,12 +10,12 @@
 # release.
 #
 Name:           yaru-theme
-Version:        26.10.3
+Version:        27.04.0
 Release:        0
 Summary:        Yaru, Ubuntu's themes
 License:        CC-BY-SA-4.0 AND GPL-3.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only
 URL:            https://github.com/ubuntu/yaru
-#!RemoteAsset: sha256:ac396932559dd1b515ee4d94d470093dfac407027d9609e756299df9e06c3f7b
+#!RemoteAsset: sha256:81001ff7dd1e6cd992f3b5db393e56993377d852e95d3538660ddeedd430a58a
 Source0:        https://github.com/ubuntu/yaru/archive/%{version}.tar.gz#/yaru-%{version}.tar.gz
 BuildRequires:  fdupes
 BuildRequires:  glib2-tools

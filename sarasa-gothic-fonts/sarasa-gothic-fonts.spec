@@ -9,12 +9,12 @@
 # release.
 #
 Name:           sarasa-gothic-fonts
-Version:        1.0.43
+Version:        1.0.44
 Release:        0
 Summary:        Sarasa Gothic, CJK programming fonts
 License:        OFL-1.1
 URL:            https://github.com/be5invis/Sarasa-Gothic
-#!RemoteAsset: sha256:3f93cd32b977e7f777880672eb26b839d0db447f66284117018c7b7e42f05ff2
+#!RemoteAsset: sha256:39db5a49a5917e6f2534e90d0316566599fcdacb2eaf06687e10f5aa64e77d8c
 Source0:        https://github.com/be5invis/Sarasa-Gothic/releases/download/v%{version}/Sarasa-TTC-%{version}.7z
 # the release has no license file
 #!RemoteAsset: sha256:32c932e0dbae4f6e6386964bbc2d04178707665a05ca65cf636241af13d50a53
